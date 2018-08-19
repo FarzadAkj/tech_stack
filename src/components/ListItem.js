@@ -13,6 +13,13 @@ const ListItem = (props) => {
         <CardItem>
           <Text style={styles.titleTextStyle}>{props.item.title}</Text>
         </CardItem>
+
+        {props.item.id === props.selectedLibraryId
+          ?
+          <Text>{props.item.description}</Text>
+          :
+          null
+        }
       </View>
     </TouchableWithoutFeedback>
   );
