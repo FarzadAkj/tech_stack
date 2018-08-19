@@ -10,7 +10,9 @@ export default class App extends Component<Props> {
   render() {
     return (
       <Provider store={createStore(reducers)}>
-        <Header title="tech_stack" />
+        <View>
+          <Header title="Tech Stack" />
+        </View>
       </Provider>
     );
   }
