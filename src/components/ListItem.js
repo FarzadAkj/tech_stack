@@ -1,14 +1,20 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, TouchableWithoutFeedback } from 'react-native';
 import { connect } from 'react-redux';
+import * as actions from '../actions';
 
 import { CardItem } from './common';
 
 const ListItem = (props) => {
+  console.log(props);
   return (
-    <CardItem>
-      <Text style={styles.titleTextStyle}>{props.item.title}</Text>
-    </CardItem>
+    <TouchableWithoutFeedback onPress={() => props.selectLibrary(props.item.id)}>
+      <View>
+        <CardItem>
+          <Text style={styles.titleTextStyle}>{props.item.title}</Text>
+        </CardItem>
+      </View>
+    </TouchableWithoutFeedback>
   );
 }
 
@@ -25,4 +31,4 @@ const mapStateToProps = state => {
   };
 }
 
-export default connect(mapStateToProps)(ListItem);
+export default connect(mapStateToProps, actions)(ListItem);
