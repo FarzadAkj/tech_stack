@@ -4,25 +4,14 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducers from './src/reducers';
 
+import { Header } from './src/components/common';
+
 export default class App extends Component<Props> {
   render() {
     return (
       <Provider store={createStore(reducers)}>
-        <View style={styles.container}>
-          <Text>
-            Hello world!
-          </Text>
-        </View>
+        <Header title="tech_stack" />
       </Provider>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-});
