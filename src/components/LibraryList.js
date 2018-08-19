@@ -2,13 +2,11 @@ import React from 'react';
 import { View, Text, FlatList } from 'react-native';
 import { connect } from 'react-redux';
 
-import { CardItem } from './common';
+import ListItem from './ListItem';
 
 renderItem = (item) => {
   return (
-    <CardItem>
-      <Text>{item.title}</Text>
-    </CardItem>
+    <ListItem item={item} />
   );
 }
 

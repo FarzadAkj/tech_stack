@@ -8,16 +8,18 @@ import { Header } from './src/components/common';
 
 import LibraryList from './src/components/LibraryList';
 
-export default class App extends Component<Props> {
+class App extends Component {
   render() {
     return (
       <Provider store={createStore(reducers)}>
-        <View>
+        <View style={{ flex: 1 }}>
           <Header title="Tech Stack" />
 
-          <LibraryList />
+          <LibraryList libraries={this.props.libraries} />
         </View>
       </Provider>
     );
   }
 }
+
+export default App;
