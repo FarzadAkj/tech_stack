@@ -5,5 +5,5 @@ export default combineReducers({
   libraries: LibraryReducer,
 });
 
-// console.log(store.getStore());
-// { libraries: [] }
+// console.log(store.getState());
+// { libraries: [ { id: 1, title: 'Webpack', description: '...' }, ... ] }
