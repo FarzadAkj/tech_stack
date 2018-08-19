@@ -14,7 +14,7 @@ const ListItem = (props) => {
           <Text style={styles.titleTextStyle}>{props.item.title}</Text>
         </CardItem>
 
-        {props.item.id === props.selectedLibraryId
+        {props.expanded
           ?
           <Text>{props.item.description}</Text>
           :
@@ -32,9 +32,11 @@ const styles = {
   },
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state, ownProps) => {
+  const expanded = state.selectedLibraryId === ownProps.item.id
+
   return {
-    selectedLibraryId: state.selectedLibraryId,
+    expanded/*: expanded*/,
   };
 }
 

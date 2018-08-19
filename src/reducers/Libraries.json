@@ -7,41 +7,41 @@
   {
     "id": 1,
     "title": "React",
-    "description": "This is a fake description about Webpack, just to fill th contents in the screen; nothing very seroius..."
+    "description": "This is a fake description about React, just to fill th contents in the screen; nothing very seroius..."
   },
   {
     "id": 2,
     "title": "Redux",
-    "description": "This is a fake description about Webpack, just to fill th contents in the screen; nothing very seroius..."
+    "description": "This is a fake description about Redux, just to fill th contents in the screen; nothing very seroius..."
   },
   {
     "id": 3,
     "title": "React-Redux",
-    "description": "This is a fake description about Webpack, just to fill th contents in the screen; nothing very seroius..."
+    "description": "This is a fake description about React-Redux, just to fill th contents in the screen; nothing very seroius..."
   },
   {
     "id": 4,
     "title": "Lodash",
-    "description": "This is a fake description about Webpack, just to fill th contents in the screen; nothing very seroius..."
+    "description": "This is a fake description about Lodash, just to fill th contents in the screen; nothing very seroius..."
   },
   {
     "id": 5,
     "title": "Redux-Thunk",
-    "description": "This is a fake description about Webpack, just to fill th contents in the screen; nothing very seroius..."
+    "description": "This is a fake description about Redux-Thunk, just to fill th contents in the screen; nothing very seroius..."
   },
   {
     "id": 6,
     "title": "ESLint",
-    "description": "This is a fake description about Webpack, just to fill th contents in the screen; nothing very seroius..."
+    "description": "This is a fake description about ESLint, just to fill th contents in the screen; nothing very seroius..."
   },
   {
     "id": 7,
     "title": "Babel",
-    "description": "This is a fake description about Webpack, just to fill th contents in the screen; nothing very seroius..."
+    "description": "This is a fake description about Babel, just to fill th contents in the screen; nothing very seroius..."
   },
   {
     "id": 8,
     "title": "Axios",
-    "description": "This is a fake description about Webpack, just to fill th contents in the screen; nothing very seroius..."
+    "description": "This is a fake description about Axios, just to fill th contents in the screen; nothing very seroius..."
   },
 ]
