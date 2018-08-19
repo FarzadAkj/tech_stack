@@ -2,46 +2,46 @@
   {
     "id": 0,
     "title": "Webpack",
-    "description": "This is a fake description about Webpack, just to fill th contents in the screen; nothing very seroius..."
+    "description": "webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles."
   },
   {
     "id": 1,
     "title": "React",
-    "description": "This is a fake description about React, just to fill th contents in the screen; nothing very seroius..."
+    "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes."
   },
   {
     "id": 2,
     "title": "Redux",
-    "description": "This is a fake description about Redux, just to fill th contents in the screen; nothing very seroius..."
+    "description": "Redux is a predictable state container for JavaScript apps. It helps you wrute applications that behave consistently, run in differentenvironments(client, server, and native), and are easy to test."
   },
   {
     "id": 3,
     "title": "React-Redux",
-    "description": "This is a fake description about React-Redux, just to fill th contents in the screen; nothing very seroius..."
+    "description": "From the very beginning, we need to stress that Redux has no relation to React. You can write Redux apps with React, Angular, Ember, jQuery, or vanilla JavaScript."
   },
   {
     "id": 4,
     "title": "Lodash",
-    "description": "This is a fake description about Lodash, just to fill th contents in the screen; nothing very seroius..."
+    "description": "A modern JavaScript utility library delivering modularity, performance $ extras. Lodash is released under the MIT license & supports modern environments"
   },
   {
     "id": 5,
     "title": "Redux-Thunk",
-    "description": "This is a fake description about Redux-Thunk, just to fill th contents in the screen; nothing very seroius..."
+    "description": "Redux Thunk middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met."
   },
   {
     "id": 6,
     "title": "ESLint",
-    "description": "This is a fake description about ESLint, just to fill th contents in the screen; nothing very seroius..."
+    "description": "ESLint is an open source JacaScript linting utility originally created by Nicholas C. Zakas in June 2013. Code linting is a type of static analysis that is frequently used to find problematic patterns or code that doesn't adhere to certain style guidelines."
   },
   {
     "id": 7,
     "title": "Babel",
-    "description": "This is a fake description about Babel, just to fill th contents in the screen; nothing very seroius..."
+    "description": "Babel is helping shape the future of the JavaScript language itself, being used at companies like Facebook, Google, Netflix, and hundreds more. Your donation will help cover expenses like attending TC39 (the committee that specifies JavaScript) meetings and will directly support the core team developers to continue working on improving Babel."
   },
   {
     "id": 8,
     "title": "Axios",
-    "description": "This is a fake description about Axios, just to fill th contents in the screen; nothing very seroius..."
+    "description": "Promise based HTTP client for the browser and node.js. With Axios, you can make XMLHttpRequests from the browser or Node with the full Promise Api."
   },
 ]

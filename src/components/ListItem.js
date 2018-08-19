@@ -1,28 +1,40 @@
-import React from 'react';
-import { View, Text, TouchableWithoutFeedback } from 'react-native';
+import React, { Component } from 'react';
+import {
+  View,
+  Text,
+  TouchableWithoutFeedback,
+  LayoutAnimation,
+} from 'react-native';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
 
 import { CardItem } from './common';
 
-const ListItem = (props) => {
-  console.log(props);
-  return (
-    <TouchableWithoutFeedback onPress={() => props.selectLibrary(props.item.id)}>
-      <View>
-        <CardItem>
-          <Text style={styles.titleTextStyle}>{props.item.title}</Text>
-        </CardItem>
+class ListItem extends Component {
+  componentWillUpdate() {
+    LayoutAnimation.spring();
+  }
 
-        {props.expanded
-          ?
-          <Text>{props.item.description}</Text>
-          :
-          null
-        }
-      </View>
-    </TouchableWithoutFeedback>
-  );
+  render() {
+    return (
+      <TouchableWithoutFeedback onPress={() => this.props.selectLibrary(this.props.item.id)}>
+        <View>
+          <CardItem>
+            <Text style={styles.titleTextStyle}>{this.props.item.title}</Text>
+          </CardItem>
+
+          {this.props.expanded
+            ?
+            <CardItem>
+              <Text>{this.props.item.description}</Text>
+            </CardItem>
+            :
+            null
+          }
+        </View>
+      </TouchableWithoutFeedback>
+    );
+  }
 }
 
 const styles = {
